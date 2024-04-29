@@ -1,0 +1,54 @@
+html {
+    background: linear-gradient(177.52deg, #e3b945 2.11%, #154580 81.34%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+h2, footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: none;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px blue;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
+
+.botao_salvar{
+    background-color: #154580;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
